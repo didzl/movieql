@@ -1,0 +1,23 @@
+{
+  "name": "graphMovie",
+  "version": "1.0.0",
+  "description": "movie api with graphql",
+  "main": "index.js",
+  "repository": "https://github.com/didzl/movieql",
+  "author": "don han <didzltm87@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security"
+  }
+}
